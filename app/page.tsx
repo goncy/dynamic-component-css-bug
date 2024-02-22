@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 
-const LazyComponent = dynamic(() => import('./lazy'))
+const LazyComponent = dynamic(() => import('../components/lazy'))
 
 export default function App() {
     return <div>
